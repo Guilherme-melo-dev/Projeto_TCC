@@ -1,0 +1,42 @@
+.container-about{
+    grid-area: _about;
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#title-page-about {
+    font-size: 45px;
+    font-family: Alata;
+    font-weight: bold;
+    margin: 10px 0;    
+}
+
+#linhaAbout {
+    border-top: 2px dashed black;
+    margin: 20px auto;
+    width: 500px;
+}
+#desc-page-about {
+    font-family: Alata;
+    font-size: 23px; 
+    max-width: 600px;   
+}
+
+#img-about {
+    display: flex;
+    height: 400px;
+    margin: 5% 0;
+}
